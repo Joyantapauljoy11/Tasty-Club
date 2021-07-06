@@ -10,7 +10,7 @@
     padding-left:10px;
     margin-left:10px;
     padding-top:50px;
-    /* background-image:url("images/food/Project\ Cover.png") */
+ 
     }
 
     .navbar{
@@ -25,22 +25,29 @@
     }
 
     
-    nav ul li {
-        list-style-type: style none;
-        display:inline-block;
-        margin-left:40px;
-    }
-
+ 
     nav{
         text-align:right;
         flex:1;
         margin-right:80px;
     }
+    
     nav ul li a{
         text-decoration:none;
         color:Black;
         font-size:15px;
     }
+
+    nav ul li {
+        list-style-type: style none;
+        display:inline-block;
+        margin-left:40px;
+      
+        
+    }
+
+
+  
   /* header top */
 
   .wrap-banner{
@@ -76,7 +83,7 @@
   .link-button{
     text-decoration:none;
     background-image:linear-gradient(blue,tomato);
-    color: rgb(19, 6, 6);
+    color: rgb(241, 228, 228);
     font-weight:700;
     padding: 10px 20px;
     border-radius: 10px;   
@@ -148,31 +155,36 @@ button:hover{
 section h2{
     text-align:center;
 }
-/* 
-.social-icon{
-    font-size:50px;
-    width:100%;
-    color:rgb(110, 16, 16);
-    font-style:none;
-}
-.social-icon a,i{
-    font-style:none;
-    padding-left:2%;
-    display:flex;
-    justify-content:center;
-} */
+
 
 .social-icon{
   font-size:200px;
   margin:20px;
-    color:rgb(173, 4, 4);
-    display:flex;
- justify-content:center;
+  display:flex;
+  
+ justify-content: space-evenly;
+}
+
+.social-icon .fa-facebook{
+    color: #4307cf !important;
+    cursor:pointer;
+}
+
+.social-icon .fa-twitter{
+    color: #633fb8 ;
+    cursor:pointer;
+}
+
+.social-icon .fa-instagram{
+    color: #99131a ;
+    cursor:pointer;
+    
 }
 
 .contact p{
     font-family: 'Lobster', cursive;
     text-align:center;
+  
 }
 
 
